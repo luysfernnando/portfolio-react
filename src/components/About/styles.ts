@@ -46,11 +46,10 @@ export const Container = styled.section`
     text-align: center;
     img {
       margin-top: 2rem;
-      width: 70%;
+      width: 100%;
       height: 500px;
       object-fit: cover;
-      object-position: 0px -190px; /* try 20% 10% */
-      border: 5px solid black;
+
     }
       filter: grayscale(1);
       transition: filter 0.5s;
@@ -64,6 +63,7 @@ export const Container = styled.section`
     .about-image {
       max-width: 100%;
       margin-top: 4rem;
+      object-fit: cover;
     }
   }
 
@@ -73,6 +73,7 @@ export const Container = styled.section`
 
     .about-image {
       display: flex;
+      object-fit: cover;
     }
     .hard-skills {
       justify-content: center;

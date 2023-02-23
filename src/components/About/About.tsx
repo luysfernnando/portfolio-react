@@ -33,10 +33,11 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            Desenvolvo sites e aplicações utilizando React, HTML, CSS, e
-            JavaScript. Tenho familiaridade em desenvolver layouts que me
-            fornecem. Estou sempre me aprimorando a cada projeto que colocam em
-            minhas mãos.
+            Desenvolvo sites e aplicações profissionais utilizando
+            principalmente React, TypeScript e MySQL, também possuo vasto
+            conhecimento de PHP, HTML, CSS e JavaScript. Tenho familiaridade em
+            desenvolver layouts modernos elegantes e responsivos. Estou sempre
+            me aprimorando a cada projeto que colocam em minhas mãos.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>

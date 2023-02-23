@@ -28,7 +28,7 @@ export function Portfolio() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/luysfernnando"
+                  href="https://github.com/luysfernnando/E-Mail_Verification"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -37,20 +37,20 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>FCallendar</h3>
+              <h3>Verificação de E-mail em PHP</h3>
               <p>
-                Uma aplicação Web realizada durante o Hackathon do programa de
-                formação da <a href="https://www.fcamara.com.br/"> FCamara</a>.
-                Esta aplicação serve para ajudar na volta do trabalho remoto
-                para o presencial.
+                Registra novos usuários com verificação de e-mail. Esse código
+                processa os dados do cliente e envia um e-mail para o usuário
+                contendo um link para validação do cadastro depois de ser
+                processado pelo PHP e MySQL. O código também está disponível em
+                Inglês e Português do Brasil
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Node</li>
-                <li>Express</li>
-                <li>MySql</li>
-                <li>Ejs</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>HTML</li>
               </ul>
             </footer>
           </div>
@@ -75,14 +75,14 @@ export function Portfolio() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/luysfernnando"
+                  href="https://github.com/luysfernnando/Calculadora-Infinity-Police-v2"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a
-                  href="https://github.com/luysfernnando"
+                  href="https://calculadora-infinitypolice.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -90,18 +90,27 @@ export function Portfolio() {
                 </a>
               </div>
             </header>
-            <div className="body">
-              <h3>Github Searcher</h3>
+            <div id="calculadora" className="body">
+              <h3>Calculadora Penal</h3>
               <p>
-                Uma versão mais agradável para ver seu perfil do GitHub, inclui
-                visualização de dados , repositórios, compartilhamento entre
-                outros.
+                Uma  
+                <a
+                  href="https://github.com/luysfernnando/Calculadora-Infinity-Police-v2"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  calculadora penal
+                </a>
+                  desenvolvida em ReactJs e TypeScript para um servidor de FiveM
+                chamado Infinity RP. Esta aplicação serve para auxiliar os
+                policiais a calcular de forma automática as penas, multas e
+                fianças dos indivíduos que forem detidos pela polícia.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>Typescript</li>
+                <li>ReactJs</li>
+                <li>TypeScript</li>
                 <li>Styled Components</li>
               </ul>
             </footer>
@@ -127,7 +136,7 @@ export function Portfolio() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/luysfernnando"
+                  href="https://github.com/luysfernnando/Rastreio-Global"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -136,16 +145,18 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Sunnyside agency</h3>
+              <h3>Rastreio de Encomendas</h3>
               <p>
-                Uma lading page de uma empresa fictícia proposta pelo{" "}
-                <a href="https://www.frontendmentor.io/">Frontend Mentor.</a>
+                Essa é uma aplicação Web que consome a API dos Correios para
+                rastrear encomendas. Pode ser facilmente implementado a API de
+                qualquer transportadora e dessa forma conseguir rastrear
+                encomendas de todo o mundo.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
               </ul>
             </footer>
@@ -182,14 +193,18 @@ export function Portfolio() {
             <div className="body">
               <h3>Portfólio V1</h3>
               <p>
-                Uma versão alternativa de meu portfólio, utilizando Html e CSS.
+                Uma versão alternativa de meu portfólio, utilizando HTML, CSS,
+                JavaScript e jQuery. O site foi criado desde o início para ser
+                totalmente responsívo, se adaptando em tamanhos diferentes de
+                telas e dispositivos móveis.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
+                <li>jQuery</li>
               </ul>
             </footer>
           </div>
@@ -223,16 +238,17 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Dtmoney</h3>
+              <h3>Jogo da Velha em ReactJs</h3>
               <p>
-                Um gerenciador de finanças para analisar seus ganhos, gastos e
-                ter um controle maior de suas finanças.
+                Essa aplicação foi desenvolvida em React para rodar diretamente
+                do navegador. O objeto é simplesmente adquirir mais conhecimento
+                sobre a linguagem ReactJs
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>VueJs</li>
-                <li>JavaScript</li>
+                <li>ReactJs</li>
+                <li>CSS</li>
               </ul>
             </footer>
           </div>
@@ -257,14 +273,14 @@ export function Portfolio() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/luysfernnando"
+                  href="https://github.com/luysfernnando/Curso-Discover-Rocketseat"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visitar site" />
                 </a>
                 <a
-                  href="https://github.com/luysfernnando"
+                  href="https://app.rocketseat.com.br/certificates/80104899-9057-4dab-8b11-ddb2305c880a"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -273,17 +289,20 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Music Library</h3>
+              <h3>Curso Discover da RocketSeat</h3>
               <p>
-                Uma interface para uma biblioteca de músicas, semelhante ao
-                Spotify.
+                Um repositório do GitHub criado para por em prática todo o
+                conhecimento adquirido durante o curso. Também contém os
+                certificados de conclusão.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
+                <li>ReactJS</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>JavaSript</li>
+                <li>MySQL</li>
               </ul>
             </footer>
           </div>

@@ -1,4 +1,4 @@
-# Portfólio João Túlio
+# Portfólio em React
 
 Este projeto foi criado com CRA (Create React App).
 
@@ -9,4 +9,3 @@ Este é meu site para me apresentar, aqui coloco minhas habilidades, portfólio,
 - React
 - Typescript
 - Styled Components
-

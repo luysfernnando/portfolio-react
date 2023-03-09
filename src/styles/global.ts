@@ -1,8 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
-
-
 export const GlobalStyle = createGlobalStyle`
+
+  @font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Red Hat Display'),  
+    url(https://fonts.gstatic.com/s/redhatdisplay/v14/8vIQ7wUr0m80wwYf0QCXZzYzUoTg8z6hVYs.woff2) format('woff2');
+    font-display: swap;
+  } /* USADO PRA OTIMIZAR O SEO, EXIBINDO UMA FONTE PADRÃO ATÉ CARREGAR AS OUTRAS*/
 
   :root{
     --pink: #E31F71;
@@ -88,6 +95,7 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
+    font-display: swap;
   }
 
   a{
@@ -122,4 +130,4 @@ export const GlobalStyle = createGlobalStyle`
   }
   
 
-`
+`;
